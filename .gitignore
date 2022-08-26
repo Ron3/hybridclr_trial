@@ -47,3 +47,5 @@
 Build-Mac
 HybridCLRData/iOSBuild/build
 /Build-iOS
+settings.json
+nameTranslation.txt
