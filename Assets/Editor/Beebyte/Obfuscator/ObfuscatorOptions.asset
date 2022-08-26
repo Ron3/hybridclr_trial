@@ -196,6 +196,13 @@ MonoBehaviour:
   - BoltExecutionOrderAttribute
   - BoltNetworkUtils
   - BoltRuntimeConfigs
+  - HCLRGame.BPSkip
+  - HCLRGame.BPSkipAttribute
+  - HCLRGame.BPSkipRenameAttribute
+  - HCLRGame.BPRenameAttribute
+  - HCLRGame.BPEnumLabelAttribute
+  - HCLRGame.BPExpandableAttribute
+  - HCLRGame.BPLabelAttribute
   alternateRPCAnnotations:
   - PunRPC
   - Photon.Pun.PunRPC
@@ -272,14 +279,14 @@ MonoBehaviour:
   equivalentAttributesForObfuscateLiterals: []
   equivalentAttributesForReplaceLiteralsWithName: []
   equivalentAttributesForSkip:
-  - HuatuoGame.BPSkipAttribute
+  - HCLRGame.BPSkipAttribute
   equivalentAttributesForSkipRename:
   - Newtonsoft.Json.JsonPropertyAttribute
-  - HuatuoGame.BPSkipRenameAttribute
+  - HCLRGame.BPSkipRenameAttribute
   - System.SerializableAttribute
   - UnityEngine.SerializeField
   - OPS.Obfuscator.Attribute.DoNotRename
-  - HuatuoGame.DoNotRenameAttribute
+  - HCLRGame.DoNotRenameAttribute
   - ParadoxNotion.Design.NameAttribute
   includeCompilationPipelineAssemblies: 0
   assemblies:
@@ -302,7 +309,7 @@ MonoBehaviour:
   - UnityEngine.Tooltip
   appendGenericTick: 0
   equivalentAttributesForRename:
-  - HuatuoGame.BPRenameAttribute
+  - HCLRGame.BPRenameAttribute
   doNotConvertConstantLiteralsToStatics: 0
   useRandomisedNameGenerator: 0
   forcedRandomSeed: 0
